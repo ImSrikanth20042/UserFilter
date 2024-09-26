@@ -1,0 +1,23 @@
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1976d2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; /* Ensures NavBar stays on top */
+}
+
+.NavBar .IconButton {
+  margin-left: 10px;
+}
+
+.NavBar .Typography {
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: left;
+}
+  

@@ -1,0 +1,38 @@
+
+.Profile {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  width: 800px;
+  margin-left: auto;
+}
+
+.ProfilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile__Body {
+  text-align: left;
+ 
+}
+
+.Profile__Details {
+  margin-top: 15px;
+}
+
+.Profile__Details p {
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1080px) {
+  .App {
+    flex-direction: column;
+    background-color: white;
+  }
+  .Filter {
+    width: 100%;
+  }
+}

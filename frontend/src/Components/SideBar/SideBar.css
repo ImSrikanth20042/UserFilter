@@ -1,0 +1,22 @@
+
+.Filter {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: fixed;
+  top: 60px; /* To make space for the NavBar */
+  right: 0;
+  height: calc(100vh - 60px); /* Full height minus the NavBar */
+}
+
+.Filter-components {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Dropdown {
+  margin-bottom: 15px;
+}

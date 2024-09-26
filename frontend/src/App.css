@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: white;
+}
+@media screen and (max-width: 1080px) {
+  .app {
+    display: block;
+  }
+  .MainContent {
+    margin-right: 0;
+  }
+  .Filter {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+}
