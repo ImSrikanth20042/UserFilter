@@ -33,7 +33,7 @@ const MainProfile = ({ user }) => {
         };
         setisloading(false);
         if (url) {
-          fetch(`http://localhost:8000/userUpdates/${user?.email}`, {
+          fetch(`https://userfilter.onrender.com/userUpdates/${user?.email}`, {
             method: "PATCH",
             headers: {
               "content-type": "application/json",

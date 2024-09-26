@@ -42,7 +42,7 @@ const SignUp = () => {
         location,
         language,
       };
-      fetch("http://localhost:8000/register", {
+      fetch("https://userfilter.onrender.com/register", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -66,7 +66,7 @@ const SignUp = () => {
     e.preventDefault();
     try {
       const user = await googleSignIn();
-      fetch("http://localhost:8000/register", {
+      fetch("https://userfilter.onrender.com/register", {
         method: "POST",
         headers: {
           "content-type": "application/json",

@@ -6,7 +6,7 @@ const Profiles = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/user")
+    fetch("https://userfilter.onrender.com/user")
       .then((res) => res.json())
       .then((data) => {
         setUsers(data);

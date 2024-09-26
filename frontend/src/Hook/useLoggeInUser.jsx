@@ -5,7 +5,7 @@ const useLoggedInUser = () => {
   const user = useUserAuth();
   const email = user?.email;
   useEffect(() => {
-    fetch(`http://localhost:8000/loggedinuser?email=${email}`)
+    fetch(`https://userfilter.onrender.com/loggedinuser?email=${email}`)
       .then((res) => res.json())
       .then((data) => {
         setLoggedInUser(data);
